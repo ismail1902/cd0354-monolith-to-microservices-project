@@ -31,5 +31,5 @@ after_success:
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
   - docker push ismail19/udagram-api-feed
   - docker push ismail19/udagram-api-user
-  - docker push ismail19/udagram-frontend:local
+  - docker push ismail19/udagram-frontend
   - docker push ismail19/reverseproxy
