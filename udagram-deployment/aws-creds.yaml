@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: aws-creds
+data:
+  credentials: |
+    [default]
+    aws_access_key_id = ASIAY3UAZSCH2L4WDGIL
+    aws_secret_access_key = 09cWxDoztpKjeZI5tsqIOrd6ZrBdzoLSPJtF7XX/
+    aws_session_token = FwoGZXIvYXdzEFEaDGCY1dQ+j2xuccelGSLVARtP5z4yWbi3fE7ZEag4H73ij1i+v9jPP6cta//NmAsvXPEsP2DJSumgcLhVeC7dIV9PyeCgc9ClS+v+M48FQVUl3vGPqrrbDaUfeaCMQ9HNExcUJNWCqWGh4Ow4SO7R+/6NbJs1cqllhaWIY3+UNtVRAPpTRJ3jlwOsYeW23uFfWx0g9A74InBfzIlA04s847kh39RSbpBpj+igN/7487JEZvuxin4VMOBBUWXWlFWlj6Trfu5NeT42gGPw9qCnVD7Mwmpdw5KcpZkUzAevw6jUxw18jiigscWZBjIt7/YXxMSwH+ZpdsdCa2OjoyD8HbL+oKOCXWxDolG8n1sbE8qe4FlkUVA6wwr5

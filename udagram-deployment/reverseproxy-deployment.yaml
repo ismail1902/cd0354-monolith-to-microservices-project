@@ -5,7 +5,7 @@ metadata:
   labels:
     app: reverseproxy
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
       app: reverseproxy
@@ -19,13 +19,4 @@ spec:
         image: ismail19/reverseproxy:latest
         ports:
         - containerPort: 8080
-        envFrom:
-            - configMapRef:
-                name: env-configmap
-            - secretRef:
-                name: env-secret
-        resources:
-            limits:
-              cpu: 1000m
-            requests:
-              cpu: 500m
+

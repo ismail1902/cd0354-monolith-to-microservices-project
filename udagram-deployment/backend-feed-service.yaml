@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: reverseproxy
+  name: backend-feed
 spec:
   selector:
-    app.kubernetes.io/name: reverseproxy
+    app: backend-feed
   ports:
     - protocol: TCP
       port: 8080
